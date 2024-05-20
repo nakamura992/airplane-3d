@@ -10,7 +10,7 @@
     },
     "scripts": {
         "dev": "node assets/js/main.js",
-        "build": "echo 'Building the project...' && mkdirp docs && cp -R public/* docs/"
+        "build": "echo 'Building the project...' && mkdir docs && xcopy public docs /E /H /C /I"
     },
     "keywords": []
 }
