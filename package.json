@@ -1,0 +1,16 @@
+{
+    "name": "airplane-3d",
+    "version": "1.0.0",
+    "description": "airplane-3d",
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2",
+        "three": "^0.164.1"
+    },
+    "scripts": {
+        "dev": "node assets/js/main.js"
+    },
+    "main": "index.js",
+    "keywords": []
+}
